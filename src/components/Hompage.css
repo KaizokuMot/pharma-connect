@@ -1,0 +1,36 @@
+.mdx-left{
+    background-color: black;
+    color: red;
+    padding: 20px;
+    width: 100%;
+    background-size: cover;
+    background-image: url("../assets/bg.jpg");
+}
+
+/* .getStarted-holder{
+} */
+
+.mdx-layout-right{
+    display: flex;
+    flex-direction: row !important;
+}
+
+.home_actions{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.get-started-btn{
+    font-size: large;
+    padding: 3%;
+    width: 50%;
+border-radius: 25px;
+    border: none !important;
+     }   
+
+
+    .mdx-right{
+        /* background-color: black; */
+    }
