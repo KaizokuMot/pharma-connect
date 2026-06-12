@@ -61,7 +61,7 @@ export const LoginPage: React.FC<LoginPageProps> = ({ onAuthenticate, onBack }) 
         </button>
 
         {!showForm ? (
-          <div style={{ textAlign: 'center' }}>
+          <div style={{ textAlign: 'left' }}>
             <h1 style={{
               fontSize: 'clamp(28px, 6vw, 40px)',
               fontWeight: 700,
